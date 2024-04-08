@@ -15,7 +15,7 @@ Below is a list of laboratory works, each contained within its own repository, a
 
 ### Lab 1: First Statistical Report
 
-- **Repository**: [Link to Lab 1 Repository]
+- **Repository**: [https://github.com/dimanaumow/Lab1-First-Statistical-Report]
 
 - **Description**: This lab serves as an introduction to creating comprehensive statistical reports. It focuses on the fundamental 
 skills required to process, analyze, and present data in a clear and informative manner using R. 
@@ -39,7 +39,7 @@ The objective is to guide students through the complete process of statistical a
 
 ### Lab 2: Parameter Estimation
 
-- **Repository**: [Link to Lab 2 Repository]
+- **Repository**: [https://github.com/dimanaumow/Lab1-First-Statistical-Report]
 
 - **Description**: This laboratory work focuses on the fundamental concepts and techniques of parameter estimation in statistical analysis. 
 The main objectives include understanding the principles of point estimation and interval estimation, 
@@ -65,7 +65,7 @@ and applying these methods to real-world datasets to estimate population paramet
 
 ### Lab 3: Loading Data and Confidence Intervals
 
-- **Repository**: [Link to Lab 3 Repository]
+- **Repository**: [https://github.com/dimanaumow/Lab1-First-Statistical-Report]
 
 - **Description**: This lab introduces the essential skills required for loading and manipulating data in R, followed 
 by the construction and interpretation of confidence intervals for statistical analysis. The focus is on practical data handling techniques 
@@ -91,7 +91,7 @@ manipulation or understanding the statistical concepts, and how these were overc
 
 ### Lab 4: Hypothesis Testing
 
-- **Repository**: [Link to Lab 4 Repository]
+- **Repository**: [https://github.com/dimanaumow/Lab1-First-Statistical-Report]
 
 - **Description**: This lab focuses on the fundamental concepts of hypothesis testing within the realm of statistical analysis. 
 The aim is to provide a hands-on experience in formulating and testing statistical hypotheses using R, covering various types of tests to analyze different data sets.
@@ -112,7 +112,7 @@ The aim is to provide a hands-on experience in formulating and testing statistic
 
 ### Lab 5: Testing Multiple Hypotheses
 
-- **Repository**: [Link to Lab 5 Repository]
+- **Repository**: [https://github.com/dimanaumow/Lab1-First-Statistical-Report]
 
 - **Description**: Building on the foundational concepts of hypothesis testing, this lab delves into the challenges 
 and methodologies associated with testing multiple hypotheses simultaneously. Emphasis is placed on understanding the 
@@ -134,7 +134,7 @@ problem of multiple comparisons and implementing techniques to control for false
 
 ### Lab 6: Linear Regression
 
-- **Repository**: [Link to Lab 6 Repository]
+- **Repository**: [https://github.com/dimanaumow/Lab1-First-Statistical-Report]
 
 - **Description**: This laboratory work is dedicated to exploring linear regression, one of the most fundamental techniques 
 in statistical analysis and machine learning. It aims to provide practical experience in modeling relationships 
