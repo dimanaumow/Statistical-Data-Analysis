@@ -1,7 +1,3 @@
-# Statistical-Data-Analysis
-StudyRepo
-
-
 # Statistical Data Analysis Course Labs
 
 This repository serves as a directory to all the laboratory works I've completed for the Statistical Data Analysis course at [University Name]. Each lab focuses on different aspects of statistical analysis using the R programming language.
