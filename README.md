@@ -6,7 +6,7 @@ This repository serves as a directory to all the laboratory works I've completed
 
 - **Institution**: [University of Warsaw]
 - **Course**: Statistical Data Analysis
-- **Term**: [Spring 2023]
+- **Term**: [Spring 2024]
 - **Instructors**: [Błażej Miasojedow, Barbara Domżał, Szymon Nowakowski]
 
 ## Labs Overview
