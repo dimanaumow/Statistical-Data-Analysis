@@ -15,7 +15,7 @@ Below is a list of laboratory works, each contained within its own repository, a
 
 ### Lab 1: First Statistical Report
 
-- **Repository**: [https://github.com/dimanaumow/Lab1-First-Statistical-Report]
+- **Repository**: [Click to see](https://github.com/dimanaumow/Lab1-First-Statistical-Report)
 
 - **Description**: This lab serves as an introduction to creating comprehensive statistical reports. It focuses on the fundamental 
 skills required to process, analyze, and present data in a clear and informative manner using R. 
@@ -39,7 +39,7 @@ The objective is to guide students through the complete process of statistical a
 
 ### Lab 2: Parameter Estimation
 
-- **Repository**: [https://github.com/dimanaumow/Lab1-First-Statistical-Report]
+- **Repository**: [https://github.com/dimanaumow/Lab-2-Parameter-Estimation]
 
 - **Description**: This laboratory work focuses on the fundamental concepts and techniques of parameter estimation in statistical analysis. 
 The main objectives include understanding the principles of point estimation and interval estimation, 
