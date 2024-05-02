@@ -20,6 +20,9 @@ Below is a list of laboratory works, each contained within its own repository, a
 - **Repository**: [Click to see](https://github.com/dimanaumow/Lab-2-Parameter-Estimation)
 
 
+### Lab-3: Confidence interval
+
+- **Repository**: [Click to see](https://github.com/dimanaumow/Lab-3-Confidence-interval)
 
 ## Tools and Technologies
 
