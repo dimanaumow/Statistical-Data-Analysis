@@ -24,6 +24,11 @@ Below is a list of laboratory works, each contained within its own repository, a
 
 - **Repository**: [Click to see](https://github.com/dimanaumow/Lab-3-Confidence-interval)
 
+### Lab-4: Statistical hypothesis testing
+
+
+- **Repository**: [Click to see](https://github.com/dimanaumow/Lab-4-Statistical-hypothesis-testing)
+
 ## Tools and Technologies
 
 - **Programming Language**: R
