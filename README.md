@@ -4,33 +4,6 @@ author: "Dzmitry Navumau"
 date: "2024-06-01"
 output: github_document
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(
-	echo = FALSE,
-	message = FALSE,
-	warning = FALSE,
-	cache = TRUE
-)
-knitr::opts_chunk$set(message = FALSE)
-knitr::opts_chunk$set(warning = FALSE)
-knitr::opts_chunk$set(cache = TRUE)
-```
-
-```{r}
-
-
-library(viridis)
-library(data.table)
-library(ggplot2)
-library(reshape2)
-library(viridis)
-library(caret)
-library(glmnet)
-library(caret)
-library(dplyr)
-```
-
 ## 1.0 Opis danych
 
 Narządy, takie jak trzustka, składają się z wielu typów tkanek, a te z kolei z wielu typów
