@@ -92,12 +92,13 @@ Można osobno zobaczyć histogram tej zmiennej:
 ```{r echo = TRUE}
 ggplot(data = y_train, aes(x = CD36)) + geom_histogram(color="blue", fill="white")
 ```
-
+![](figure-gfm/unnamed-chunk-8-1.png)<!-- -->
 
 Przydatnym będzie również zobaczyć wykres kwantylowy:
 ```{r echo = TRUE}
 ggplot(data = y_train) + geom_qq(aes(sample = CD36), size=1.5, color="blue")
 ```
+![](figure-gfm/unnamed-chunk-9-1.png)<!-- -->
 
 Na podstawie tego wykresu kwantylowego oraz histogramu możemy zauważyć, że dane znacznie odbiegają od rozkładu normalnego. Wartości odstające mogą mieć duży wpływ na rozkład, a dane mogą mieć "ciężkie ogony", co oznacza, że skrajne wartości są bardziej powszechne niż w rozkładzie normalnym. Taki rozkład może być trudny do analizy za pomocą metod statystycznych, które zakładają normalność. Zanim zacznijmy przeprowadzać testy statystyczne, zróbmy jescze jeden krok
 
@@ -123,6 +124,7 @@ ggplot(data = cor_relations, aes(x = Var1, y = Var2, fill = value)) +
   theme(axis.text.x = element_blank(), axis.text.y = element_blank()) +
   coord_fixed()
 ```
+![](figure-gfm/unnamed-chunk-11-1.png)<!-- -->
 
 Mapa ciepła korelacji pokazuje, że większość zmiennych ma niskie korelacje (zielone obszary) lub umiarkowane korelacje (przejścia w żółty). Obecność kilku żółtych plam w pobliżu przekątnej wskazuje na silne dodatnie korelacje między niektórymi parami zmiennych. Warto zwrócić szczególną uwagę na te zmienne, gdyż mogą one mieć istotne znaczenie w dalszej analizie.
 
@@ -136,6 +138,7 @@ ggplot(data = y_train) +
   geom_qq(aes(sample = CD36), size=0.5, color = "blue") +
   geom_qq_line(aes(sample = CD36))
 ```
+![](figure-gfm/unnamed-chunk-12-1.png)<!-- -->
 
 Cieżko jest odczytać z tego wykresu jaka by mogła być średnia i wariancja rozkładu zmiennej y, ze wgłędu na ciężkie ogony tego rozkładu
 
@@ -173,6 +176,7 @@ Widzimy, że najbardziej skorelowana kolumna danych odpowida bialkowi "BLVRB".
 
 Żeby coś powiedzieć o rozkładzie danych odpowiadających tej kolumnie spórzmy na histogram: 
 
+![](figure-gfm/unnamed-chunk-15-1.png)<!-- -->
 
 ```{r}
 ggplot(data = highest_correlated_vector, aes(x = BLVRB)) + geom_histogram(color="blue", fill="white")
@@ -196,6 +200,8 @@ Zobaczmy jak wygłąda rozkład na histogramie:
 highest_correlated_vector_norm_df <- data.frame(value = highest_correlated_vector_norm)
 ggplot(data = highest_correlated_vector_norm_df, aes(x = value)) + geom_histogram(color="blue", fill="white")
 ```
+
+![](figure-gfm/unnamed-chunk-18-1.png)<!-- -->
 
 Sprawdźmy, czy jest to rozkład lognormalny przy pomocy testu Kolmogorova-Smirnova
 * **Hipoteza zerowa (H0)**: Logarytm danych jest rozłożony normalnie.
@@ -308,7 +314,7 @@ Przedstawmy wykres zaleznosci blędu od parametrów $\lambda$, $\alpha$, żeby l
 ```{r}
 plot(elastic_net)
 ```
-
+![](figure-gfm/unnamed-chunk-24-1.png)<!-- -->
 
 Żeby zdobyć więcej informacji na temat rozkładu błędów RMSE dla różnych kombinacji parametrów możemy narysować wykres skrzypcowy (violin plot):
 ```{r echo = TRUE}
@@ -335,6 +341,8 @@ ggplot(cv_results, aes(x = 0, y = RMSE, fill = hyperparameter)) +
 
 
 ```
+
+![](figure-gfm/unnamed-chunk-25-1.png)<!-- -->
 
 Zaraz warto się upewnić czy nie mamy overfittingu, w związku z czym policzmy dwa błędy: walidacyjny oraz trainingowy: 
 
@@ -392,6 +400,9 @@ Przedstawmy wykres zaleznosci blędu od wszystkich parametrów, żeby lepej zrom
 ```{r echo = TRUE}
 plot(random_forest)
 ```
+
+![](figure-gfm/unnamed-chunk-30-1.png)<!-- -->
+
 Zaraz warto się upewnić czy nie mamy overfittingu, w związku z czym policzmy dwa błędy: walidacyjny oraz trainingowy: 
 
 Błąd walidacyjny wynosi:
@@ -433,6 +444,8 @@ ggplot(resampling_results, aes(x = Hyperparameters, y = RMSE, fill = Hyperparame
 
 
 ```
+
+![](figure-gfm/unnamed-chunk-33-1.png)<!-- -->
 
 ## 5.0 Decyzja, który model wziąć 
 Porównanie RMSE dla poszczególnych modeli przedstawia się następująco:
