@@ -86,6 +86,7 @@ Przedstawmy wykres gęstości rozkładu empirycznego zmiennej objaśnianej:
 ```{r echo = TRUE}
 ggplot(data = y_train, aes(x = CD36)) +geom_density(fill = "green", alpha = 0.5) +labs(title = "Gęstość estymatora empirycznego", x = "Wartość sygnału białka CD361", y = "Gęstość")
 ```
+![](figure-gfm/unnamed-chunk-7-1.png)<!-- -->
 
 Można osobno zobaczyć histogram tej zmiennej: 
 ```{r echo = TRUE}
